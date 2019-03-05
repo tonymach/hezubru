@@ -36,3 +36,17 @@
 p {
   margin-top:0;
 }
+
+a {
+  display:block;
+  color: black;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #F8F8F8;
+}
+
+a:hover,a:focus {
+  color:black;
+}

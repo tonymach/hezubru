@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Link from './Link.js';
+var Blink = require('react-blink');
 class App extends Component {
   render() {
     return (
@@ -10,9 +10,10 @@ class App extends Component {
             <img src="img/hezu.png" className="hezu"/>
         </div>
         <div className="container">
-          <h1>[ life within brackets ]</h1>
-            <h1>[ @hezubru ]</h1>
-              <h1>[ You are who you eat ]</h1>
+            <Link where="" what="Life within brackets"/>
+            <Link where="https://instagram.com/hezubru" what="@hezubru"/>
+            <Link where="https://medium.com/@tonymach" what="Mountain goat"/>
+
 
           <div />
 
